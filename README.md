@@ -30,11 +30,11 @@ mongo
 
 4. Basic operations in mondodb. _use four spaces to indent_
     1. To Create or Use database type 
-       ```
+       ```javascript
        use contacts;
        ```
-    2. To Create user type
-       ``` 
+    2. To Create user type _csharp javascript for code color syntax_
+       ```javascript
        db.createUser({
 	    user:"admin",
 	    pwd:"admin",
@@ -46,7 +46,7 @@ mongo
        db.createCollection("mycontacts"); 
        ```
     4. To insert single record
-	```
+	```javascript
 	db.mycontacts.insert(
 	{
 		first_name:"Sunny",
@@ -55,7 +55,7 @@ mongo
 	});
 	```
     5. To insert multiple records
-	```
+	```javascript
 	db.mycontacts.insert(
 	[
 		{
