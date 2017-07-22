@@ -1,6 +1,7 @@
 # MongoDb
-This project will depict how to use MongoDb a document database.
---------------------------------------
+This project will depict how to use MongoDb a document database. 
+@sunnysinghdev :+1: 
+> This page is for documentation of MongoDb client usage
 # Connection String For Mongo Client
 .
 -------------------------------------- 
@@ -25,7 +26,7 @@ net start MongoDB
 ```
 mongo
 ```
-4. Basic operations in mondodb.
+4. Basic operations in mondodb. _use four spaces to indent_
     1. To Create or Use database type 
        ```
        use contacts;
