@@ -12,7 +12,7 @@ namespace MongoAtlas
     {
         static void Main(string[] args)
         {
-            string password = "G8JWl80coDTrT95e";
+            string password = "*******";
             string database = "mycontacs";
             string connectionString = "mongodb://atlas_gladbeak:"+password
                 +
