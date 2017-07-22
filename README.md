@@ -38,33 +38,33 @@ mongo
 	    roles:["readWrite", "dbAdmin"]
        });
        ```
-    3. To Create a table(Collection) type
-```
-db.createCollection("mycontacts");
-```
+    3. To Create a table Collection type
+       ```
+       db.createCollection("mycontacts"); 
+       ```
     4. To insert single record
-```
-db.mycontacts.insert(
-{
-	first_name:"Sunny",
-	last_name:"Singh",
-	age:28
-});
-```
+	```
+	db.mycontacts.insert(
+	{
+		first_name:"Sunny",
+		last_name:"Singh",
+		age:28
+	});
+	```
     5. To insert multiple records
-```
-db.mycontacts.insert(
-[
-	{
-		first_name:"Ashish",
-		last_name:"Singh",
-		age:12
-	},
-	{
-		first_name:"Ravi",
-		last_name:"Singh",
-		age:12,
-		marital:"married"
-	},	
-]);
-```
+	```
+	db.mycontacts.insert(
+	[
+		{
+			first_name:"Ashish",
+			last_name:"Singh",
+			age:12
+		},
+		{
+			first_name:"Ravi",
+			last_name:"Singh",
+			age:12,
+			marital:"married"
+		},	
+	]);
+	```
