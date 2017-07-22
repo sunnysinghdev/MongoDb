@@ -26,7 +26,7 @@ net start MongoDB
 mongo
 ```
 4. Basic operations in mondodb.
-To Create or Use database type "use <databasename>"
+To Create or Use database type "use ```databasename```"
 ````
 use contacts;
 ```
