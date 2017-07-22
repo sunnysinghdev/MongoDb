@@ -8,3 +8,5 @@ MongoAtlas/MongoAtlas/bin
 MongoAtlas/MongoAtlas/obj
 # VS
 MongoAtlas/.vs
+#
+.vs
