@@ -6,3 +6,5 @@ MongoAtlas/packages
 MongoAtlas/MongoAtlas/bin
 # Obj
 MongoAtlas/MongoAtlas/obj
+# VS
+MongoAtlas/.vs
