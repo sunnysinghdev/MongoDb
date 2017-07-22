@@ -2,3 +2,7 @@
 info.txt
 # Packages
 MongoAtlas/packages
+# Output Folder
+MongoAtlas/MongoAtlas/bin
+# Obj
+MongoAtlas/MongoAtlas/obj
