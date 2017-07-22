@@ -26,23 +26,23 @@ net start MongoDB
 mongo
 ```
 4. Basic operations in mondodb.
-To Create or Use database type "use ```databasename```"
-````
-use contacts;
-```
-To Create user type
-``` 
-db.createUser({
-	user:"admin",
-	pwd:"admin",
-	roles:["readWrite", "dbAdmin"]
-});
-```
-To Create a table(Collection) type
+    1. To Create or Use database type 
+       ```
+       use contacts;
+       ```
+    2. To Create user type
+       ``` 
+       db.createUser({
+	    user:"admin",
+	    pwd:"admin",
+	    roles:["readWrite", "dbAdmin"]
+       });
+       ```
+    3. To Create a table(Collection) type
 ```
 db.createCollection("mycontacts");
-````
-To insert single record
+```
+    4. To insert single record
 ```
 db.mycontacts.insert(
 {
@@ -51,8 +51,7 @@ db.mycontacts.insert(
 	age:28
 });
 ```
-
-To insert multiple records
+    5. To insert multiple records
 ```
 db.mycontacts.insert(
 [
